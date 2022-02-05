@@ -19,3 +19,9 @@ const timer = function(times) {
     }
 }
 timer(process.argv.slice(2));
+
+// process.stdin.on('data', (key) => {
+//     process.stdout.write('.');
+//   });
+  
+//   console.log('after callback');
